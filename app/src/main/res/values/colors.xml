@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#444</color>
+    <color name="colorDarkBackground">#222</color>
+    <color name="colorPrimaryDark">#333</color>
+    <color name="colorAccent">#397</color>
+    <color name="mainCategoryText">#DDD</color>
+
+    <!--Grey Green Pallet-->
+    <color name="darkSilver">#303641</color>
+    <color name="mediumSilver">#8f9fa6</color>
+    <color name="lightSilver">#c1d2db</color>
+    <color name="darkGreen">#5EA79B</color>
+    <color name="darkLight">#5ED7BB</color>
+
+    <!--Mondello Pallet -->
+    <color name="mondelloDarkGreen">#025918</color>
+    <color name="mondelloLightGreen">#52D967</color>
+    <color name="mondelloMediumGreen">#4BBF5C</color>
+    <color name="mondelloDark">#0D0C09</color>
+    <color name="mondelloLight">#404040</color>
+</resources>

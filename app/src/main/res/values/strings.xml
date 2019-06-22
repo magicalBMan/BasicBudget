@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Basic Budget</string>
+    <string name="theme">Theme</string>
+    <string name="manage_categories">Manage Categories</string>
+    <string name="prev_month_char"><![CDATA[<]]></string>
+    <string name="next_month_char"><![CDATA[>]]></string>
+    <string name="dummy_text">Dummy Text</string>
+    <string name="adjust_balance">Adjust Balance</string>
+</resources>

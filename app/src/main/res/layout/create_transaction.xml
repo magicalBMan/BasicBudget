@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/create_tx_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+android:padding="10dp">
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/create_tx_editText"
+            android:hint="@string/dummy_text"
+            android:inputType="numberDecimal"
+            android:textDirection="rtl"
+            android:imeOptions="actionDone">
+    </EditText>
+    <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/create_tx_CancelBtn"
+                android:layout_weight="1"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="18dp"/>
+        <Button
+                android:text="Ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/create_tx_okBtn"
+                android:layout_weight="1"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="36dp"/>
+    </LinearLayout>
+</LinearLayout>

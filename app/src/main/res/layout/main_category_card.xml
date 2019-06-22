@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_category_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="4dp">
+    <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="8dp">
+            <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/main_category_imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_home_black_24dp"/>
+            <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/main_category_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:paddingStart="16dp"
+                    android:text="@string/dummy_text"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/sub_category_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true"
+                android:visibility="gone"
+                android:background="#222"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.design.card.MaterialCardView>
